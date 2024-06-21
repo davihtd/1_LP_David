@@ -164,7 +164,7 @@ public class registro extends javax.swing.JFrame {
     
     private void btn_mostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_mostrarActionPerformed
         // TODO add your handling code here:
-    StringBuilder datosCliente = new StringBuilder("Datos del Cliente\n");
+    StringBuilder datosCliente = new StringBuilder("Datos de Clientes\n");
         
     if(clienteIndex > 0){
             for(int i = 0; i < clienteIndex; ++i){
